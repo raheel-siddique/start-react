@@ -1,0 +1,50 @@
+
+body{
+    background-color: purple;
+}
+.main_div_form{
+    display: flex;
+     
+  
+}  
+.form_div{
+
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+
+  
+    margin: auto;
+    margin-top: 230px;
+}
+.show_heading{
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.my_input_filed{
+    width: 400px;
+    height: 40px;
+    background-color: lightgray;
+    border-radius: 2px;
+    border: 2px solid lightgray;
+
+outline: none;
+     
+}
+
+.my_btn{
+    width: 200px;
+    height: 40px;
+    outline: none;
+    background-color:#ffffff ;
+   border-radius: 5px;
+   border: 2px solid #ffffff;
+   cursor: pointer;
+   margin-top: 20px;
+   color: purple;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+
+}
