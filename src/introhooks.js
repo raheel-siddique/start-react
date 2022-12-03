@@ -135,3 +135,117 @@
 //     )
 //   }
 //   export default App
+
+
+
+
+// const App=()=>{
+//     const [quantity, setQuantity]=useState(0)
+//     const [itemName, setItemName]=useState('i phone')
+  
+//     const chnageName=()=>{
+//      setQuantity((prevState)=>{
+//    return prevState+1
+//      });
+  
+//      setItemName((preState)=>{
+//           return preState='Android'
+//      })
+//       // setQuantity(quantity+1)
+//       // setItemName('android')
+//     }
+//     return(
+//       <>
+//          {/* <UserData /> */}
+  
+//            <h1>{quantity}</h1>
+//            <p>{itemName}</p>
+//            <button onClick={chnageName}>+</button>
+         
+//       </>
+
+
+
+
+// const [myName, setMyName]=useState("Raheel Siddique")
+//   const [qualification, setQualification]=useState("Garduation in computer science")
+//   const [myJob, setMyJob]=useState("Web Developer")
+
+
+//   const changeData=()=>{
+//     // setMyName('Rasim Siddique')
+//     // setQualification('inter')
+//     // setMyJob('software developer')
+//     setMyName((oldState)=>{
+//       return oldState='Rasim siddique';
+//     })
+//    setQualification((olderState)=>{
+//     return olderState='inter';
+//    })
+//    setMyJob((valuesOld)=>{
+//     return valuesOld='sofwtare develoepr'
+//    })
+//   }
+
+
+//  return(
+//   <>
+//     <h1>my name is {myName}</h1>
+//     <h1>y qualification is {qualification}</h1>
+//     <h1>my expertise in a {myJob}</h1>
+
+//     <button onClick={changeData} >change my Data</button>
+    
+
+
+
+// import React, { useState } from 'react';
+// import UserData from './UserData';
+
+
+// // const initialValue=0;
+// // initialValue++;
+// // same
+
+// const App=()=>{
+//   // const [myName, setMyName]=useState("Raheel Siddique")
+//   // const [qualification, setQualification]=useState("Garduation in computer science")
+//   // const [myJob, setMyJob]=useState("Web Developer")
+
+//    const [wholedata, setWholeData ]=useState({
+//     myName:"Raheel Siddique",
+//     myQualification:'bcs',
+//     myJob:'web developer'
+//    })
+  
+
+// const chnageData=()=>{
+//   // setWholeData({
+//   //   ...wholedata,
+//   //   myName:'Rasim Siddique',
+//   //   myQualification:'dhbfshfhuj'
+  
+//   // })
+//   setWholeData((prevData)=>{
+//     return {
+//       ...prevData,
+//       myName:'Rasim Siddique',
+ 
+
+//     }
+//   })
+// }
+// // }
+//  return(
+//   <>
+//     <h1>my name is {wholedata.myName} </h1>
+//     <h1>my qualification is {wholedata.myQualification} </h1>
+//     <h1>my expertise in a {wholedata.myJob} </h1>
+
+//     <button  onClick={chnageData}>change my Data</button>
+    
+
+//   </>
+//  )
+// }
+// export default App
